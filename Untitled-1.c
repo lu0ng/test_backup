@@ -12,11 +12,8 @@ int main()
 {
 int luachon;
 scanf("%d",&luachon);
-switch (luachon)
-{
-case 1 : printf("hi");
-break;
-default:
-    break;
-}
+    if (luachon == 0)
+    {
+        printf("hi");
+    }
 }
